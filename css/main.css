@@ -83,12 +83,84 @@ section .about-info {
 
 /* portfolio  */
 
-section .portfoli-img {
+section .portfolio-img {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 1rem;
     align-items: center;
 }
 
+.portfolio-img img {
+    width: 100%;
+}
+
+
+/* abilities  */
+
+section .list-abilities {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 0 1rem;
+}
+
+section .b_back {
+    width: 100%;
+    height: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+
+.abilities h3 {
+    width: 25%;
+}
+
+section .b_front {
+    width: 50%;
+    height: 20px;
+    background-color: #42704e;
+    border-radius: 10px;
+}
+
+section .front-box,
+section .back-box {
+    display: flex;
+    margin: 1rem 0
+}
+
 
 /* contact */
+
+section .contact-box {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-gap: 1.5rem;
+}
+
+.contact textarea {
+    width: 100%;
+}
+
+.contact-box-letf-label {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 0 2rem;
+}
+
+label {
+    margin-top: 1rem;
+}
+
+textarea {
+    padding-top: 1rem;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: .5rem;
+}
+
+.text-textarea {
+    padding-top: 1rem;
+}
