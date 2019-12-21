@@ -164,3 +164,20 @@ textarea {
 .text-textarea {
     padding-top: 1rem;
 }
+
+input[type=submit] {
+    background-color: #42704e;
+    color: white;
+    padding: .8rem 2rem;
+    border: none;
+    cursor: pointer;
+    margin-top: .8rem;
+}
+
+
+/* footer  */
+
+footer .footer {
+    display: flex;
+    justify-content: space-evenly;
+}
