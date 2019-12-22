@@ -152,6 +152,7 @@ label {
 
 textarea {
     padding-top: 1rem;
+    box-sizing: border-box;
 }
 
 input[type=text],
@@ -159,10 +160,6 @@ select,
 textarea {
     width: 100%;
     padding: .5rem;
-}
-
-.text-textarea {
-    padding-top: 1rem;
 }
 
 input[type=submit] {
@@ -174,14 +171,29 @@ input[type=submit] {
     margin-top: .8rem;
 }
 
+input[type=text] {
+    box-sizing: border-box;
+}
+
+.contact-box-letf-label div,
+.contact-box-letf-label p {
+    margin: .4rem;
+}
+
+.contact-box p {
+    margin-top: 1rem;
+    margin-bottom: .4rem;
+    margin-left: 0.4rem;
+}
+
 
 /* footer  */
 
-footer  {
+.footer {
     background-color: #000;
     color: #fff;
     display: flex;
     justify-content: space-between;
-    padding: 1.2rem;
+    box-sizing: border-box;
+    padding: .8rem 1.2rem;
 }
-
