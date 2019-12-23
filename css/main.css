@@ -12,6 +12,10 @@ h2 {
   border-left: .3rem solid #c8c8c8;
 }
 
+h2:hover {
+  border-left: .3rem solid #42704e;
+}
+
 p {
   line-height: 1.4;
 }
@@ -60,8 +64,15 @@ header .logo {
 
 .header li {
   margin-left: .5rem;
+  box-sizing: border-box;
 }
 
+/* header nav li:hover:nth-child(1) {
+  border-bottom: .3rem solid #42704e;
+} */
+header nav li:hover {
+  border-bottom: .3rem solid #42704e;
+}
 
 /* about  */
 
@@ -77,6 +88,13 @@ section .about-info {
   border-radius: 50%;
   width: 80%;
   border: .4rem solid #f0f0f0;
+  box-sizing: border-box;
+}
+.about-info img:hover {
+  border-radius: 50%;
+  width: 80%;
+  border: .4rem solid #42704e;
+  box-sizing: border-box;
 }
 
 .social nav {
@@ -89,6 +107,7 @@ section .about-info {
   color: #000;
   margin-right: .5rem;
 }
+
 
 .about .fa-linkedin-in {
   color: #fff;
@@ -139,6 +158,11 @@ section .portfolio-img {
   border: .4rem solid #f0f0f0;
   box-sizing: border-box;
 }
+.portfolio-img img:hover {
+  width: 100%;
+  border: .6rem solid #42704e;
+  box-sizing: border-box;
+}
 
 
 /* abilities  */
@@ -156,6 +180,13 @@ section .b_back {
   background-color: #f0f0f0;
   border-radius: .6rem;
   border: solid 1px #d5d5d5;
+}
+section  .b_back:hover {
+  width: 100%;
+  height: 1.2rem;
+  background-color: #4c2358;
+  border-radius: .6rem;
+  /* border: solid 1px #d5d5d5; */
 }
 
 .abilities h3 {
