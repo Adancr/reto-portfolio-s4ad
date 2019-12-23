@@ -1,3 +1,4 @@
+/* Globals  */
 h1,
 h2,
 h3 {
@@ -75,6 +76,7 @@ section .about-info {
 .about-info img {
   border-radius: 50%;
   width: 80%;
+  border: .4rem solid #f0f0f0;
 }
 
 .social nav {
@@ -105,7 +107,7 @@ section .about-info {
 }
 
 .about .fa-twitter {
-
+  
   color: #fff;
   background: #00acee;
   padding: .6rem;
@@ -134,6 +136,8 @@ section .portfolio-img {
 
 .portfolio-img img {
   width: 100%;
+  border: .4rem solid #f0f0f0;
+  box-sizing: border-box;
 }
 
 
@@ -255,5 +259,9 @@ input[type=text] {
   display: flex;
   justify-content: space-between;
   box-sizing: border-box;
-  padding: .8rem 1.2rem;
+  padding: 1.5rem 1.5rem;
+}
+
+footer p {
+  font-size: .7rem;
 }
